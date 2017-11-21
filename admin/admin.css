@@ -1,0 +1,320 @@
+* {
+	-moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+	-webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+	-moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+	-o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+	transition: width 1s ease-in-out, left 1.5s ease-in-out;
+}
+body {
+	margin: 0;
+	color: #555555;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+#top {
+	border-bottom: 4px solid #2ECC71;
+    height: 48px;
+	background: url("img/dark.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	margin-bottom: 48px;
+}
+#footer {
+	border-top: 4px solid #2ECC71;
+    height: 38px;
+	background: url("img/dark.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	margin-top: 158px;
+}
+.copyrights {
+    display: block;
+    width: 100%;
+	text-align: center;
+    padding-top: 12px;
+	color: #FFFFFF;
+    font-size: 11px;
+}
+.logo {
+	float: left;
+	width: auto;
+	margin-left: 20px;
+}
+.logo img {
+	width: 53px; margin-top: 4px;
+}
+.welcome {
+	height: 20px;
+    padding: 12px 14px;
+	float: right;
+	margin-right: 20px;
+	padding-right: 0px;
+}
+.welcome img {
+	float: left;
+	margin-right:10px;
+	margin-top:-3px;
+}
+.welcome > span {
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 32px;
+    white-space: nowrap;
+	line-height: 20px;
+	margin-top: 1px;
+}
+.one-third1 ul {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none outside none;
+}
+.one-third1 ul li {
+    margin-top: 1px;
+    position: relative;
+	line-height: 20px;
+}
+.active {
+	background: none repeat scroll 0 0 #0097C4;
+    
+}
+.active a {
+    background-color: rgba(0, 151, 196, 0.88) !important;
+}
+.active a:hover{
+    background-color: rgba(0, 151, 196, 0.93);
+}
+.one-third1 ul li a {
+    border: 1px solid #fff;
+    color: #fff;
+    display: block;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 14px;
+	text-decoration: none;
+    background-color: #2ECC71;
+    border-top-left-radius: 5px; 
+     
+}
+.one-third1 ul li a:hover {
+	color: #0097C4;
+    background-color: rgba(0, 0, 0, 0.79);
+}
+.one-third1 ul li a img {
+	float: left;
+	margin-right: 5px;
+}
+.one-third1 ul li a span {
+    display: block;
+    white-space: nowrap;
+	margin-top: 1px;
+}
+
+#formdesign {
+	background: linear-gradient(to bottom, #FFFFFF 0%, #F6F6F6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #D5D5D5;
+    padding: 12px;
+    position: relative;
+	margin: 20px 0;
+}
+
+#filter {
+	-moz-box-sizing: border-box;
+    background: url("img/big_search.png") no-repeat scroll 10px 10px #FFFFFF;
+    box-shadow: none;
+    display: block;
+    font-size: 12px;
+    height: 34px;
+    margin: 0;
+    padding: 9px 140px 9px 28px;
+    width: 100%;
+	border: 1px solid #DADADA;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	padding-top: 6px;
+}
+table {
+    border-collapse: separate;
+	background: #FFFFFF;
+    border-spacing: 0;
+    max-width: 100%;
+}
+#resultTable {
+	color: #666666; 
+	width: 100%;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 5px 5px -5px rgba(15, 252, 106, 0.96);
+    
+}
+#resultTable thead tr th {
+    background: none repeat scroll 0 0 #0b0e6a;
+    color: #fff;
+    padding: 10px 14px;
+    text-align: left;
+	border-top: 0 none;
+	font-size: 12px;
+}
+
+#resultTable tbody tr td{
+    background-color: #FFFFFF;
+	font-size: 11px;
+    text-align: left;
+	padding: 10px 14px;
+	border-top: 1px solid #DDDDDD;
+}
+
+/* #Base 960 Grid
+================================================== */
+	.container .column,
+    .container .columns {
+		float: left; display: inline; margin-left: 10px; margin-right: 10px;
+	}
+	.container {
+		position: relative; width: 960px; margin: 0 auto; padding: 0;
+	}
+	.container .one-third1.column {
+		width: 163px;
+	}
+    .container .two-thirds1.column  {
+		width: 750px;
+		border: double #D5D5D5;
+		padding-bottom: 20px;
+	}
+	.thewraper {
+		margin: 0 20px;
+	}
+	
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container {
+		width: 768px;
+	}
+	.container .column,
+    .container .columns {
+		margin-left: 10px; margin-right: 10px;
+	}
+	.container .one-third1.column {
+		width: 125px;
+	}
+    .container .two-thirds1.column  {
+		width: 595px;
+	}
+	.thewraper {
+		margin: 0 10px;
+	}
+}
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+	.container {
+		width: 300px;
+	}
+	.container .columns,
+    .container .column { margin: 0; }
+	.container .one-third1.column {
+		width: 300px;
+	}
+    .container .two-thirds1.column  {
+		width: 300px;
+		border: none;
+	}
+	.thewraper {
+		margin: 20px 0;
+	}
+}
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container {
+		width: 420px;
+	}
+	.container .columns,
+    .container .column { margin: 0; }
+	.container .one-third1.column {
+		width: 420px;
+	}
+    .container .two-thirds1.column  {
+		width: 420px;
+		border: none;
+	}
+	.thewraper {
+		margin: 20px 0;
+	}
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 3px;
+    border-color: black;
+    padding: 5px 10px; 
+    margin-left: 15px;
+    margin-bottom: 30px;
+   
+}
+select{
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 20px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: inherit;
+   margin: 15px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 300px;
+}
+textarea{
+	border: 1px solid #000000;
+	width: 270px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.btn-save input{
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    background-color: #2ECC71;
+    border-bottom: 4px solid #27AE60;
+    margin-bottom: 20px;
+}
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }

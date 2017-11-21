@@ -1,0 +1,146 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a{
+color:white;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 11.5pt;
+	color: #000000;
+	line-height: 1.75em;
+	background: #E0DCDC url(images/bg.gif) repeat-x top left;
+}
+
+body,input {
+	font-family: Georgia, serif;
+}
+
+strong {
+	color: #2C2B2B;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+#footer {
+	margin: 40px 0 120px 0;
+	text-align: center;
+	color: #890F08;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#footer a {
+	color: #9A3222;
+}
+#header {
+	height: 30px;
+	position: relative;
+	background: #6E6E6E url(images/baasaa.jpg) top left no-repeat;
+	padding: 45px;
+	color: #FFFFFF;
+	width: 600px;
+	border: solid 1px #7E7E7E;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	overflow: hidden;
+}
+
+
+
+
+#wrapper {
+	position: relative;
+	width: 691px;
+	margin: 75px auto 0 auto;
+	background: #BAB521;  /*2po*/
+	border-radius: 6px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+}
+
+
+
+
+#pageWrapper{
+			position:relative;
+			
+			}
+			#login{         /*login paper*/
+			margin:4% auto;
+			width:380px;
+			height:220px;
+			background: #BAB521;    /*1po*/
+			border-radius:5px;
+			padding:10px;
+			
+			
+			
+			}
+			#login table{
+			margin-left:40px;
+			
+			}
+			#login tr{
+			line-height:50px;
+			}
+			
+			#login h1{
+			color:black;
+			text-align:center;
+			}
+			#login input[type=text],input[type=password]{
+			padding:5px;
+			color:black;
+			border-radius:5px;
+			border:thin solid lightgray;
+			width:200px;
+			}
+			#login input[type=submit],input[type=button]{
+			border:none;
+			background-color:white;
+			padding:10px;
+			border-radius:15px;
+			font-weight:bold;
+			color:black;
+			box-shadow:2px 2px 2px gray;
+		
+			}
+			#login input[type=submit],input[type=button]:hover{
+			background-color:lightgray;
+			
+			}
+			#login a{
+			text-decoration:none;
+			color:green;
+			font-size:14px;
+			margin-left:55px;
+			
+			}
+			#login a:hover{
+			text-decoration:underline;
+			}
+			
+			
+		
+
+
+
+	

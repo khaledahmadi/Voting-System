@@ -1,0 +1,366 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #0F8C8C;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 11.5pt;
+	color: #5C5B5B;
+	line-height: 1.75em;
+	background: #E0DCDC url(images/bg.gif) repeat-x top left;
+}
+
+body,input {
+	font-family: Georgia, serif;
+}
+
+strong {
+	color: #2C2B2B;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+
+
+
+img.alignleft {
+	margin: 5px 20px 20px 0;
+	float: left;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+img.pic {
+	padding: 5px;
+
+	
+}
+
+
+
+
+
+
+#footer {
+	margin: 40px 0 120px 0;
+	text-align: center;
+	color: #8C8B8B;
+	text-shadow: 0 1px 0 #FFFFFF;
+}
+
+#footer a {
+	color: #8C8B8B;
+}
+
+#header {
+	height: 75px;
+	position: relative;
+	background: #6E6E6E url(images/3.jpg) top left no-repeat;
+	padding: 45px;
+	color: #FFFFFF;
+	width: 740px;
+	border: solid 1px #7E7E7E;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	overflow: hidden;
+
+}
+#cssmenu {
+	padding: 0 35px 0 35px;
+	position: relative;
+	background: #003300 url(images/img02.jpg) repeat-x top left;
+	margin: 0;
+	height: 30px;
+	width: 760px;
+	border-top: solid 1px #FFFFFFF;
+	border-bottom: solid 1px #FFFFFFF;
+	text-shadow: 0 1px 1px #226A14;
+		 -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  
+}
+
+#cssmenu ul {
+	list-style: none;
+	padding-top: 1px;
+	position: relative;
+	left: -15px;
+}
+
+#cssmenu ul li {
+	padding: 3px 40px 3px 78px;
+	margin-right: -60px;
+	display: inline-block;
+
+}
+
+#cssmenu ul li a, #menu ul li span {
+	text-decoration: none;
+	color: #003300;
+	letter-spacing: -1px;
+	font-size: 1.2em;
+}
+
+#cssmenu ul li span b {
+	display: inline-block;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 7px solid #1C7575;
+	margin-left: 8px;
+	position: relative;
+	top: -1px;
+}
+
+#cssmenu ul li.active {
+	background: #1C7575;
+	border-top: solid 1px #1A6B6B;
+	border-bottom: solid 1px #5AD7D7;
+	border-radius: 3px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#cssmenu ul li.active span b {
+	border-top-color: #165E5E;
+}
+
+
+
+
+
+
+
+
+#wrapper {
+	position: relative;
+	width: 830px;
+	height:540px;
+	margin: 75px auto 0 auto;
+	background: #082502;
+	border-radius: 6px;
+	box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.1);
+}
+
+
+
+
+		
+			#vote{ 
+			margin:85px auto;   /*   paper nung vote candidate chhchu*/
+			width:500px;
+			height:100px; 
+			background: #082502; 
+			text-align:center;
+			
+			font-weight:bold;
+			position:relative; 
+			
+			
+			}
+		    
+			#candidate_det{   /*popoutprof*/
+			display:none;
+			width:470px;
+			min-height:220px;
+			height:auto;
+			box-shadow:2px 2px 2px black;
+			position:absolute; 
+			top:-65px;
+			background-color:white;
+			padding:20px;
+			border-radius:10px;
+			font-family:courier;
+			z-index:1000;
+			}
+			
+			h1{ color:white;}
+			#profile{ margin:0 auto; 
+					width:350px;
+					line-height:15px; }
+			#profile th{font-size:20px;
+						border-bottom:
+						thin dotted gray;}
+			#profile td{
+				font-size:12px;
+				}
+			#close{ color:red; 
+				text-decoration:none; 
+				font-family:arial;
+				float:right; 
+				margin-top:-15px;
+			}
+			#mask{	background-color:gray;
+					height:100%;
+					width:100%;
+					position:absolute;
+					opacity:0.5;
+					top:-1px;
+					margin-left:-10px;
+					display:none;
+					
+					}
+
+#pageWrapper{
+			position:relative;
+			
+			}
+			#login{         /*login paper*/
+			margin:8% auto;
+			width:380px;
+			height:200px;
+			background: #082502;
+			border-radius:5px;
+			padding:10px;
+			
+			
+			
+			}
+			#login table{
+			margin-left:40px;
+			
+			}
+			#login tr{
+			line-height:50px;
+			}
+			
+			#login h1{
+			color:white;
+			text-align:center;
+			}
+			#login input[type=text],input[type=password]{
+			padding:5px;
+			color:black;
+			border-radius:5px;
+			border:thin solid lightgray;
+			width:200px;
+			}
+			#login input[type=submit],input[type=button]{
+			border:none;
+			background-color:white;
+			padding:10px;
+			border-radius:15px;
+			font-weight:bold;
+			color:green;
+			box-shadow:2px 2px 2px gray;
+		
+			}
+			#login input[type=submit],input[type=button]:hover{
+			background-color:lightgreen;
+			
+			}
+			#login a{
+			text-decoration:none;
+			color:green;
+			font-size:14px;
+			margin-left:55px;
+			
+			}
+			#login a:hover{
+			text-decoration:underline;
+			}
+			.images{
+				
+				border:solid green;
+			}
+			#logout{
+			text-decoration:none;
+			color:green;
+			font-weight:bold;
+			color:white;
+			float:right;
+			margin-right:20px;
+			margin-top:5px;
+			}
+			#logout:hover{
+			text-decoration:underline;
+			}
+			
+			.candidate a{
+			margin-top:10px;
+			text-decoration:none;
+			font-size:12px;
+			font-family:arial;
+			color:green;
+			}
+			.candidate a:hover{
+			text-decoration:underline;
+			}
+			.candidate{
+			width:150px;
+			text-align:center;
+			float:left;
+			margin-left:10px;
+			
+	
+			}
+			.candidate img{
+			border:thin solid white;
+			height:150px;
+			width:150px;
+			border-radius:5px;
+			opacity:0.8;
+			box-shadow:2px 2px 2px black;
+			}
+			.candidate img:hover{
+				opacity:10;
+			}
+				
+			#close,.close{ 
+				margin-top:-5px;
+				color:green; 
+				text-decoration:none; 
+				font-family:arial;
+				float:right; 
+			
+			}
+			.errors{
+			color:red;
+			font-size:13px;
+			}
+			.position{
+		    position:absolute;
+			top:-25px;
+			left:1px;
+			width:500px;
+			min-height:220px;
+			height:auto;
+			background-color:white;
+			
+			border-radius:10px;
+			padding:10px;
+			
+			box-shadow:2px 2px 2px 2px black;
+			
+			word-wrap:break-word;
+			color:green;
+			
+			
+			}
+			.position h2{
+			 text-align:center;
+			 font-family:courier;
+			 font-family:arial;
+			 font-size:20px;
+			 color:black;
+			 
+		
+		
+
+
+
+	
